@@ -80,4 +80,10 @@ class MySuite extends munit.FunSuite {
     val expected = List("the", "quick")
     assertEquals(expected, interview_ex.mostFrequentwords(phrase, k))
   }
+
+  test("Test last in list function"){
+    val numList = List(1, 14, 6, 12, 9, 10)
+    val expectedLast = 10
+    assertEquals(expectedLast, interview_ex.lastInList(numList))
+  }
 }

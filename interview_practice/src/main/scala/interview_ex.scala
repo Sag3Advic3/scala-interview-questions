@@ -12,8 +12,14 @@ object interview_ex {
         for (word <- words) {
             wordCount(word) = wordCount.getOrElse(word, 0) + 1
         }
+        println(wordCount)
         val sortedWords = wordCount.toSeq.sortWith(_._2 > _._2).take(k).map(_._1).toList
         sortedWords
+    }
+
+    def lastInList(numList: List[Int]): Int = {
+        if(numList.length == 1) return numList.head
+        else lastInList(numList.tail)
     }
 }
 
