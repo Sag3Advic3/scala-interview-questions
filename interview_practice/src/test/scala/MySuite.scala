@@ -68,4 +68,16 @@ class MySuite extends munit.FunSuite {
     println(">> max")
     println(misc.max(10))
   }
+
+  test("Test array length function"){
+    val arr = Array(1,2,3,4,5)
+    assertEquals(arr.length, interview_ex.arrayLength(arr))
+  }
+
+  test("Test most frequent words function"){
+    val phrase = "the quick quick brown fox jumps over the lazy dog the the the"
+    val k = 2
+    val expected = List("the", "quick")
+    assertEquals(expected, interview_ex.mostFrequentwords(phrase, k))
+  }
 }

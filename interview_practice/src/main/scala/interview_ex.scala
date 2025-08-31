@@ -1,11 +1,19 @@
 object interview_ex {
-    def arraySize(arr: Array[Int]): {
-        var count = 0
-        for (elem <- arr) {
-            count ++
-        }
+    def arrayLength(arr: Array[Int]): Int = {
+        var c = 0
+        for (i <- arr)
+            c += 1
+        c
+    }
 
-        count
+    def mostFrequentwords(phrase: String, k: Int): List[String] = {
+        val words = phrase.split(" ")
+        val wordCount = scala.collection.mutable.Map[String, Int]()
+        for (word <- words) {
+            wordCount(word) = wordCount.getOrElse(word, 0) + 1
+        }
+        val sortedWords = wordCount.toSeq.sortWith(_._2 > _._2).take(k).map(_._1).toList
+        sortedWords
     }
 }
 
