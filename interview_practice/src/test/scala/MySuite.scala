@@ -2,9 +2,11 @@
 // https://scalameta.org/munit/docs/getting-started.html
 import org.junit._
 import org.junit.Assert._
+import BST.RecursiveBinarySearch
+import ms_interview.findLeaders
 
 class MySuite extends munit.FunSuite {
-  val first8Fibs = List[Int] (0,1,1,2,3,5,8,13)
+  val first8Fibs = List[Int](0, 1, 1, 2, 3, 5, 8, 13)
 
   test("example test that succeeds") {
     val obtained = 42
@@ -14,24 +16,24 @@ class MySuite extends munit.FunSuite {
   def matchNumbers(numbers: List[Int]): Unit | "1 element" =
     numbers match
       case first :: second :: next => println("2 or more elements")
-      case first :: Nil => ("1 element")
-      case Nil => println("Empty")
+      case first :: Nil            => ("1 element")
+      case Nil                     => println("Empty")
 
-  test("show off code completion"){
-    val numbers = List(1,2,3,4,5)
+  test("show off code completion") {
+    val numbers = List(1, 2, 3, 4, 5)
     val (even, odd) = numbers.partition(_ % 2 == 0)
     assertEquals(even.size, 2)
     assertEquals(odd.size, 3)
 
     matchNumbers(numbers)
-    
+
   }
 
-  test("Test string reverse1"){
+  test("Test string reverse1") {
     assertEquals("madA m'I madaM", stringReverser.reverse1("Madam I'm Adam"))
   }
 
-  test("Test string reverse2"){
+  test("Test string reverse2") {
     assertEquals("madA m'I madaM", stringReverser.reverse2("Madam I'm Adam"))
   }
 /* 
@@ -39,42 +41,42 @@ class MySuite extends munit.FunSuite {
     assertEquals("madA m'I madaM", stringReverser.reverse3("Madam I'm Adam"))
   } */
 
-  test("Test string reverse4"){
+  test("Test string reverse4") {
     assertEquals("madA m'I madaM", stringReverser.reverse4("Madam I'm Adam"))
   }
 
-  test("Test fibonacciGenerator fib1"){
+  test("Test fibonacciGenerator fib1") {
     var results = List[Int]()
-    for(i <- 0 to 7){
-        results = results :+ fibonacciGenerator.fib1(i)
+    for (i <- 0 to 7) {
+      results = results :+ fibonacciGenerator.fib1(i)
     }
     assertEquals(first8Fibs, results)
   }
 
-  test("Test fibonacciGenerator fib2"){
+  test("Test fibonacciGenerator fib2") {
     var results = List[Int]()
-    for(i <- 0 to 7){
-        results = results :+ fibonacciGenerator.fib2(i)
+    for (i <- 0 to 7) {
+      results = results :+ fibonacciGenerator.fib2(i)
     }
     assertEquals(first8Fibs, results)
   }
 
-  test("Test filterOdds"){
+  test("Test filterOdds") {
     println(">> printOdds")
     println(misc.filterOdds(1, 99))
   }
 
-  test("Test max"){
+  test("Test max") {
     println(">> max")
     println(misc.max(10))
   }
 
-  test("Test array length function"){
-    val arr = Array(1,2,3,4,5)
+  test("Test array length function") {
+    val arr = Array(1, 2, 3, 4, 5)
     assertEquals(arr.length, interview_ex.arrayLength(arr))
   }
 
-  test("Test most frequent words function"){
+  test("Test most frequent words function") {
     val phrase = "the quick quick brown fox jumps over the lazy dog the the the"
     val k = 2
     val expected = List("the", "quick")
@@ -85,5 +87,33 @@ class MySuite extends munit.FunSuite {
     val numList = List(1, 14, 6, 12, 9, 10)
     val expectedLast = 10
     assertEquals(expectedLast, interview_ex.lastInList(numList))
+  }
+
+  test("Test binary search array function") {
+    // Calling the binary search function and
+    // storing its result in index variable
+    val nums = Array(19, 37, 23, 4, 14, 10, 18, 56)
+    println(nums)
+    nums.sortBy(x => x)
+    println(nums)
+    var index = RecursiveBinarySearch(nums, 4)(0, 6);
+
+    // If value not found
+    if (index == -1)
+      print("Not Found")
+
+    // Else print the index where
+    // the value is found
+    else
+      print("Element found at Index " + index)
+  }
+
+  test("Test find leaders search"){
+    val nums = Array(24, 26, 9, 8, 10, 2)
+    val expected = List(26, 10, 2)
+    val leaders = findLeaders(nums)
+
+    assertEquals(expected, leaders)
+    println(leaders)
   }
 }
