@@ -1,3 +1,14 @@
+error id: file:///C:/Users/Fae/Desktop/projects/scala-interview-questions/interview_practice/src/test/scala/MySuite.scala:doublingMap.
+file:///C:/Users/Fae/Desktop/projects/scala-interview-questions/interview_practice/src/test/scala/MySuite.scala
+empty definition using pc, found symbol in pc: doublingMap.
+found definition using semanticdb; symbol _empty_/mapAndFilterEx.doublingMap().
+empty definition using fallback
+non-local guesses:
+
+offset: 2552
+uri: file:///C:/Users/Fae/Desktop/projects/scala-interview-questions/interview_practice/src/test/scala/MySuite.scala
+text:
+```scala
 // For more information on writing tests, see
 // https://scalameta.org/munit/docs/getting-started.html
 import org.junit._
@@ -86,4 +97,14 @@ class MySuite extends munit.FunSuite {
     val expectedLast = 10
     assertEquals(expectedLast, interview_ex.lastInList(numList))
   }
+
+  test("Test doubling map"){
+    println(mapAnmiscdFilterEx.d@@oublingMap())
+  }
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: doublingMap.

@@ -1,3 +1,17 @@
+error id: file:///C:/Users/Fae/Desktop/projects/scala-interview-questions/interview_practice/src/test/scala/MySuite.scala:_empty_/mapAndFilterEx.
+file:///C:/Users/Fae/Desktop/projects/scala-interview-questions/interview_practice/src/test/scala/MySuite.scala
+empty definition using pc, found symbol in pc: _empty_/mapAndFilterEx.
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+	 -org/junit/mapAndFilterEx.
+	 -org/junit/Assert.mapAndFilterEx.
+	 -mapAndFilterEx.
+	 -scala/Predef.mapAndFilterEx.
+offset: 2537
+uri: file:///C:/Users/Fae/Desktop/projects/scala-interview-questions/interview_practice/src/test/scala/MySuite.scala
+text:
+```scala
 // For more information on writing tests, see
 // https://scalameta.org/munit/docs/getting-started.html
 import org.junit._
@@ -86,4 +100,14 @@ class MySuite extends munit.FunSuite {
     val expectedLast = 10
     assertEquals(expectedLast, interview_ex.lastInList(numList))
   }
+
+  test("Test doubling map"){
+    println(mapAn@@miscdFilterEx.doublingMap())
+  }
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: _empty_/mapAndFilterEx.
