@@ -60,6 +60,66 @@
       "args": [],
       "jvmOptions": [],
       "env": {}
+    },
+    {
+      "type": "scala",
+      "request": "launch",
+      "name": "HigherOrderFunctions",
+      "mainClass": "HigherOrderFunctions",
+      "buildTarget": "file:/C:/Users/anime/Desktop/repos/scala-interview-questions/interview_practice/?id=root",
+      "args": [],
+      "jvmOptions": [],
+      "env": {}
+    },
+    {
+      "type": "scala",
+      "request": "launch",
+      "name": "obj_trait",
+      "mainClass": "obj_trait",
+      "buildTarget": "file:/C:/Users/anime/Desktop/repos/scala-interview-questions/interview_practice/?id=root",
+      "args": [],
+      "jvmOptions": [],
+      "env": {}
+    },
+    {
+      "type": "scala",
+      "request": "launch",
+      "name": "companionObjectExample",
+      "mainClass": "companionObjectExample",
+      "buildTarget": "file:/C:/Users/anime/Desktop/repos/scala-interview-questions/interview_practice/?id=root",
+      "args": [],
+      "jvmOptions": [],
+      "env": {}
+    },
+    {
+      "type": "scala",
+      "request": "launch",
+      "name": "objMethodOverride",
+      "mainClass": "objMethodOverride",
+      "buildTarget": "file:/C:/Users/anime/Desktop/repos/scala-interview-questions/interview_practice/?id=root",
+      "args": [],
+      "jvmOptions": [],
+      "env": {}
+    },
+    {
+      "type": "scala",
+      "request": "launch",
+      "name": "objMethodOverloading",
+      "mainClass": "objMethodOverloading",
+      "buildTarget": "file:/C:/Users/anime/Desktop/repos/scala-interview-questions/interview_practice/?id=root",
+      "args": [],
+      "jvmOptions": [],
+      "env": {}
+    },
+    {
+      "type": "scala",
+      "request": "launch",
+      "name": "futuresAndPromisesEx",
+      "mainClass": "futuresAndPromisesEx",
+      "buildTarget": "file:/C:/Users/anime/Desktop/repos/scala-interview-questions/interview_practice/?id=root",
+      "args": [],
+      "jvmOptions": [],
+      "env": {}
     }
   ]
 }
