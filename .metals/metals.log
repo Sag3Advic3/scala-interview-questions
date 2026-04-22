@@ -4512,3 +4512,108 @@ WARNING: Unmatched cancel notification for request id 14051
 2026.04.20 22:15:34 INFO  time: compiled root in 0.44s
 2026.04.20 22:15:36 INFO  compiling root (1 scala source)
 2026.04.20 22:15:36 INFO  time: compiled root in 0.33s
+2026.04.21 16:53:54 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\Users\Fae\Desktop\projects\scala-interview-questions\.metals\lsp.trace.json or C:\Users\Fae\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2026.04.21 16:54:25 INFO  logging to files C:\Users\Fae\Desktop\projects\scala-interview-questions\.metals\metals.log
+2026.04.21 16:54:25 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\Fae\Desktop\projects\scala-interview-questions' for client Visual Studio Code 1.116.0.
+2026.04.21 16:54:25 INFO  time: initialize in 0.23s
+2026.04.21 16:54:26 INFO  Memory monitor started
+2026.04.21 16:54:46 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.21 16:54:48 INFO  no build target found for C:\Users\Fae\Desktop\projects\scala-interview-questions\interview_practice\src\main\scala\examples.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.21 16:55:14 INFO  no build target found for C:\Users\Fae\Desktop\projects\scala-interview-questions\interview_practice\src\main\scala\examples.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.21 16:55:15 INFO  Attempting to connect to the build server...
+2026.04.21 16:55:15 INFO  No running Bloop server found, starting one.
+2026.04.21 16:55:19 INFO  Starting compilation server
+2026.04.21 16:55:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Fae\Desktop\projects\scala-interview-questions\.metals\bsp.trace.json or C:\Users\Fae\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.04.21 16:55:34 INFO  time: Connected to build server in 19s
+2026.04.21 16:55:34 INFO  Connected to Build server: Bloop v2.0.19
+2026.04.21 16:55:34 INFO  time: Imported build in 0.34s
+2026.04.21 16:55:42 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.21 16:55:44 INFO  time: indexed workspace in 10s
+2026.04.21 16:55:49 INFO  compiling root (6 scala sources and 3 java sources)
+2026.04.21 16:56:00 WARN  Unexpected javac output: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor (file:/C:/Users/Fae/AppData/Local/bloop/cache/semanticdb/com.sourcegraph.semanticdb-javac.0.11.2/semanticdb-javac-0.11.2.jar)
+WARNING: Please consider reporting this to the maintainers of class com.sourcegraph.shaded.com.google.protobuf.UnsafeUtil$MemoryAccessor
+WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release.
+2026.04.21 16:56:01 INFO  compiling root-test (1 scala source)
+2026.04.21 16:56:01 INFO  time: compiled root in 12s
+2026.04.21 16:56:03 INFO  time: compiled root-test in 2.16s
+2026.04.21 16:57:25 INFO  compiling root (1 scala source)
+2026.04.21 16:57:25 INFO  time: compiled root in 0.48s
+2026.04.21 16:57:37 WARN  Could not find semantic tokens for: file:///C:/Users/Fae/Desktop/projects/scala-interview-questions/interview_practice/src/main/scala/interview_ex_2.scala
+2026.04.21 16:57:38 WARN  Could not find semantic tokens for: file:///C:/Users/Fae/Desktop/projects/scala-interview-questions/interview_practice/src/main/scala/interview_ex_2.scala
+Apr 21, 2026 4:58:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.04.21 16:58:32 INFO  Shutting down server
+2026.04.21 16:58:32 INFO  Memory monitor stopped
+2026.04.21 16:58:32 INFO  shutting down Metals
+2026.04.21 16:58:32 INFO  Shut down connection with build server.
+2026.04.21 16:58:32 INFO  Exiting server
+2026.04.21 16:58:40 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\Fae\Desktop\projects\scala-interview-questions' for client Visual Studio Code 1.116.0.
+2026.04.21 16:58:40 INFO  Memory monitor started
+2026.04.21 16:58:40 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.21 16:58:41 INFO  no build target found for C:\Users\Fae\Desktop\projects\scala-interview-questions\interview_practice\src\main\scala\interview_ex_2.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.04.21 16:58:41 INFO  Attempting to connect to the build server...
+2026.04.21 16:58:41 INFO  Found a Bloop server running
+2026.04.21 16:58:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Fae\Desktop\projects\scala-interview-questions\.metals\bsp.trace.json or C:\Users\Fae\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.04.21 16:58:42 INFO  time: Connected to build server in 0.55s
+2026.04.21 16:58:42 INFO  Connected to Build server: Bloop v2.0.19
+2026.04.21 16:58:42 INFO  time: Imported build in 0.12s
+Apr 21, 2026 4:58:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Apr 21, 2026 4:58:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Apr 21, 2026 4:58:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2026.04.21 16:58:46 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.21 16:58:47 INFO  time: indexed workspace in 5.19s
+Apr 21, 2026 5:00:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 356
+Apr 21, 2026 5:00:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 359
+Apr 21, 2026 5:00:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 365
+Apr 21, 2026 5:00:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 368
+Apr 21, 2026 5:00:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 367
+2026.04.21 17:00:22 INFO  compiling root (1 scala source)
+2026.04.21 17:00:22 INFO  time: compiled root in 0.71s
+2026.04.21 17:00:40 INFO  compiling root (1 scala source)
+2026.04.21 17:00:40 INFO  time: compiled root in 0.3s
+Apr 21, 2026 5:00:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 570
+Apr 21, 2026 5:02:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1393
+2026.04.21 17:03:33 INFO  compiling root (1 scala source)
+2026.04.21 17:03:33 INFO  time: compiled root in 0.29s
+2026.04.21 17:22:20 INFO  compiling root (1 scala source)
+2026.04.21 17:22:20 INFO  time: compiled root in 0.89s
+2026.04.21 17:22:52 INFO  compiling root (1 scala source)
+2026.04.21 17:22:52 INFO  time: compiled root in 0.39s
+2026.04.21 18:12:26 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Fae\Desktop\projects\scala-interview-questions\.metals\dap-server.trace.json or C:\Users\Fae\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2026.04.21 18:12:26 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Fae\Desktop\projects\scala-interview-questions\.metals\dap-client.trace.json or C:\Users\Fae\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2026.04.21 18:12:26 INFO  Starting debug proxy for [MySuite(Test string reverse4)]
+2026.04.21 18:12:27 INFO  Initialized Scala 3 decoder in 14 milliseconds
+2026.04.21 18:12:31 INFO  Trying to attach to remote debuggee VM kubernetes.docker.internal:52802 .
+2026.04.21 18:12:31 INFO  Attaching to debuggee VM succeeded.
+2026.04.21 18:12:33 INFO  Canceling debug proxy for [MySuite(Test string reverse4)]
+2026.04.21 18:12:33 INFO  Closing debug server tcp://0.0.0.0:52795
+2026.04.21 18:12:42 INFO  compiling root-test (1 scala source)
+2026.04.21 18:12:45 INFO  time: compiled root-test in 2.96s
+2026.04.21 20:04:50 INFO  compiling root (1 scala source)
+2026.04.21 20:04:50 INFO  time: compiled root in 0.82s
+2026.04.21 20:05:18 WARN  Could not find semantic tokens for: file:///C:/Users/Fae/Desktop/projects/scala-interview-questions/interview_practice/src/main/scala/threadSafeTakeProcessor.scala
+2026.04.21 20:05:19 WARN  Could not find semantic tokens for: file:///C:/Users/Fae/Desktop/projects/scala-interview-questions/interview_practice/src/main/scala/threadSafeTakeProcessor.scala
+2026.04.21 20:05:50 INFO  Created report: Optional[file:///C:/Users/Fae/Desktop/projects/scala-interview-questions/interview_practice/src/main/scala/threadSafeTakeProcessor.scala]
+2026.04.21 20:05:50 INFO  java.lang.AssertionError: assertion failed (full report at: "C:\Users\Fae\Desktop\projects\scala-interview-questions\.metals\.reports\metals-full\2026-04-21\r_compiler-error_(root)_20-05-50-169.md")
+2026.04.21 20:05:50 WARN  Could not find semantic tokens for: file:///C:/Users/Fae/Desktop/projects/scala-interview-questions/interview_practice/src/main/scala/threadSafeTakeProcessor.scala
+Apr 21, 2026 8:06:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3869
+2026.04.21 20:10:50 INFO  Created report: Optional[file:///C:/Users/Fae/Desktop/projects/scala-interview-questions/interview_practice/src/main/scala/threadSafeTakeProcessor.scala]
+2026.04.21 20:10:50 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "C:\Users\Fae\Desktop\projects\scala-interview-questions\.metals\.reports\metals-full\2026-04-21\r_compiler-error_(root)_20-10-50-374.md")
+Apr 21, 2026 8:12:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6639
+Apr 21, 2026 8:13:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7491
+2026.04.21 20:14:24 INFO  compiling root (1 scala source)
+2026.04.21 20:14:24 INFO  time: compiled root in 0.8s
